@@ -1,0 +1,176 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background: rgb(141,123,104);
+    background: linear-gradient(180deg, rgba(141,123,104,1) 0%, rgba(164,144,124,1) 33%, rgba(200,182,166,1) 66%, rgba(241,222,201,1) 100%);
+}
+.styled-text{
+    text-decoration: underline #1f1306;
+}
+img{
+    width: 25%;
+}
+h1{
+    font-size: 5.5rem;
+    margin: 9rem 0 -3rem 0;
+    font-family: 'Pinyon Script', cursive;
+    /*text-decoration: #66BFBF;*/
+    color: #4e2c06;
+    line-height: 1;
+}
+h2{
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+    margin: 3rem auto;
+    /*text-decoration: #66BFBF;*/
+    color: #4e2c06;
+    font-weight: normal;
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+    color: #95540d;
+}
+p{
+    margin: 0 auto;
+}
+hr{
+    width: 15%;
+    border: 0.5rem;
+    border-style: none none dotted;
+    border-color: #8d6e68;
+    margin: 0rem auto;
+}
+.top-container{
+    padding: 5% 10% 0 10%;
+}
+.right-cloud{
+    width: 20%;
+    margin: -6rem 0rem 0rem 15rem;
+    position: absolute;
+}
+.left-cloud{
+    width: 20%;
+    margin: -8rem 0 0 -12rem;
+    position: absolute;
+}
+.mountain{
+    width: 60%;
+    margin: 5% 0 0 0;
+}
+/*
+figure {
+    padding: 4px;
+    margin: auto;
+}
+figcaption {
+    background-color: black;
+    color: white;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+    width: 20%;
+    margin: 0 auto;
+}
+*/
+a{
+    color: #95540d;
+    cursor: pointer;
+    text-decoration: none;
+}
+a:hover{
+    color: #f1dec9;
+}
+.profile{
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    padding: 4rem;
+}
+.skills{
+    padding: 4rem;
+}
+.my-skills-h2{
+    margin: 0rem auto;
+}
+.skill-row-1{
+    /*display: inline-block;*/
+    margin: 4.5rem auto 8rem auto;
+    text-align: justify;
+    width: 50%;
+    line-height: 2;
+}
+.skill-row-2{
+    /*display: inline-block;*/
+    margin: 6.5rem auto;
+    text-align: justify;
+    width: 50%;
+    line-height: 2;
+}
+.checklist{
+    float: left;
+    margin: -1rem auto;
+}
+.rocket{
+    float: right;
+    margin: -3rem auto;
+}
+/*
+.skill1{
+    clear: left;
+}
+.skill2{
+    clear: right;
+}
+*/
+.contact-me{
+    padding: 4rem;
+}
+.music-player{
+    position: absolute;
+    margin: -2rem 0rem 0rem -56rem;
+}
+.bottom-container{
+    padding: 4rem;
+    background-color: #c5a27b;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+
+.btn{
+
+font-family: Roboto, sans-serif;
+font-weight: 200;
+font-size: 15px;
+color: #000000;
+background: linear-gradient(0deg, #8d7b68 0%, #f1dec9 100%);
+padding: 10px 30px;
+border: solid #99530e 3px;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+border-radius: 8px 50px;
+transition : 410ms;
+transform: translateY(0);
+display: flex;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+text-transform: uppercase;
+margin: 2rem auto;
+}
+
+.btn:hover{
+
+transition : 410ms;
+padding: 10px 50px;
+transform : translateY(-0px);
+background: linear-gradient(0deg, #8d7b68 0%, #f1dec9 100%);
+color: #000000;
+border: solid 3px #99530e;
+}
+.footer-link{
+    margin: 1rem 1rem;
+}
+.copy-right{
+    margin: 1rem 2rem;
+    font-size: 0.8rem;
+}
